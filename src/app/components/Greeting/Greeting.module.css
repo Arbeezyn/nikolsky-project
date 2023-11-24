@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1vh;
+  align-items: center;
+}
+.description {
+  font-size: large;
+  padding: 3vh 10vh;
+}

@@ -1,0 +1,28 @@
+.companyInfoContainer {
+  max-width: 800px;
+  margin: 1vh auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  flex: 1;
+  margin: auto;
+  border: #6e6a99 3px solid;
+}
+
+.heading {
+  color: white;
+}
+
+.paragraph {
+  line-height: 1.5;
+  color: white;
+}
+
+.companyImage {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

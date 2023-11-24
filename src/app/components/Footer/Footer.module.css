@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #6e6a99;
+  height: 10vh;
+}
+.socials {
+  display: flex;
+  gap: 20px;
+}

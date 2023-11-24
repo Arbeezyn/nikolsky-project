@@ -1,0 +1,54 @@
+.main {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100vh;
+}
+
+.pages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.page {
+  border: 3px solid #6e6a99;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.errorContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page:hover {
+  cursor: pointer;
+  background-color: #464272;
+}
+
+.selected {
+  background-color: #464272;
+}
+
+.error {
+  font-size: 24px;
+}

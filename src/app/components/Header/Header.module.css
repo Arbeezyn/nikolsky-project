@@ -1,0 +1,57 @@
+.header {
+  padding-bottom: 3vh;
+}
+
+.headerUl {
+  padding-top: 10px;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-size: large;
+  font-weight: bold;
+  justify-content: space-evenly;
+  white-space: nowrap;
+}
+
+.logo {
+  flex-basis: 400px;
+  font-size: larger;
+}
+
+.adminButton {
+  background-color: #6e6a99;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 7px;
+  font-size: medium;
+}
+
+.adminButton:hover {
+  cursor: pointer;
+  background-color: #514e6d;
+}
+
+.menuItem {
+  position: relative;
+  overflow: hidden;
+}
+
+.menuItem::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: transparent;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.menuItem:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: #6e6a99;
+}
